@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "jxxj-84a95": {
+      "hosting": {
+        "weather-app": [
+          "jxxj-84a95"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jxxj-84a95"
+  }
+}
