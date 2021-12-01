@@ -1,5 +1,6 @@
 const path = require('path');
 const src = path.join( process.cwd(), 'src', 'electron' );
+
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
@@ -8,6 +9,7 @@ module.exports = {
     path: path.join( process.cwd(), 'dist', 'my-editor'),
     filename: 'shell.js'
   },
+
   module: {
     rules: [
       {
@@ -18,6 +20,6 @@ module.exports = {
         }
       },
     ],
-    target: 'electron-main'
-  }
-}
+  },
+  target: 'electron-main'
+};
